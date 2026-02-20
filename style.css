@@ -15,7 +15,7 @@ body{
 }
 
 .navbar{
-    background-color: rgb(28, 84, 148);
+    background-color: rgb(74,144, 226);
     display: flex;
     justify-content: space-evenly;
     padding-top: 2%;
@@ -28,5 +28,33 @@ body{
 }
 
 .facts-page{
-    background-color: rgb(31, 58, 95);
+    background-color:rgb(31, 58, 95);
+}
+
+.facts-content-div{
+    margin-left: 10%
+}
+
+.facts-content-div{
+    font-size: large
+}
+
+.gallery-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery-content button{
+    border-radius: 30%;
+    padding: 2%;
+    margin: 1%;
+    background-color:rgb(159, 166, 172);
+    border-color: rgb(45, 86, 221);
+    border: none;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: x-large;
+    height: 1%
+
 }
