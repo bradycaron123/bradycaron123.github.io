@@ -3,7 +3,7 @@
 }
 
 body{
-        font-family :Georgia, 'Times New Roman', Times, serif
+    font-family :Georgia, 'Times New Roman', Times, serif;
 }
 
 .home-content-div{
@@ -28,7 +28,7 @@ body{
 }
 
 .facts-page{
-    background-color:rgb(31, 58, 95);t
+    background-color:rgb(31, 58, 95);
 }
 
 .facts-content-div{
@@ -55,6 +55,11 @@ body{
     text-decoration: none;
     font-weight: bold;
     font-size: x-large;
-    height: 1%
-
+    height: 1%;
+}
+.info-page {
+    background-color:rgb(31, 58, 95);
+}
+.gallery-page {
+    background-color:rgb(31, 58, 95);
 }

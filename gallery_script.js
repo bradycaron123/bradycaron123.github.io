@@ -1,7 +1,7 @@
 const imageGallery = [
     "https://images.unsplash.com/photo-1666616343677-bd7a7941c849?q=80&w=3027&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "https://cdn.shopify.com/s/files/1/1623/9935/files/AdobeStock_206937573_1_1024x1024.jpg?v=1651604195",
-    "https://media.istockphoto.com/id/2229758992/photo/small-waterfall-and-river.jpg?s=1024x1024&w=is&k=20&c=cKWoVYwUtuwU-Zlqlb5tUFj7LKYnO7d_FGjGSOSx3dQ="
+    "https://images.unsplash.com/flagged/photo-1575555201693-7cd442b8023f?q=80&w=2232&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "https://images.unsplash.com/photo-1542737579-ba0a385f3b84?q=80&w=3088&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 ];
 
 const imageElement = document.getElementById('gallery-image');
@@ -21,3 +21,7 @@ nextButton.addEventListener('click', function() {
     updateImage();
 });
 
+prevButton.addEventListener('click', function() {
+    currentImageIndex = (currentImageIndex - 1 +imageGallery.length) % imageGallery.length;
+    updateImage();
+});
